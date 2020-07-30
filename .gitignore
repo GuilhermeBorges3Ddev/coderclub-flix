@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./coderclub-flix-app/node_modules
+./coderclub-flix-app/.pnp
+./coderclub-flix-app/.pnp.js
+
+# testing
+./coderclub-flix-app/coverage
+
+# production
+./coderclub-flix-app/build
+
+# misc
+./coderclub-flix-app/.DS_Store
+./coderclub-flix-app/.env.local
+./coderclub-flix-app/.env.development.local
+./coderclub-flix-app/.env.test.local
+./coderclub-flix-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
